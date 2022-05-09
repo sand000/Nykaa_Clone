@@ -9,7 +9,10 @@ import {footer} from "../navbar/footer.js"
 // let m=document.getElementById("footer")
 // m.innerHTML=footer();
 
-
+document.getElementById("account").addEventListener("click",account);
+function account(){
+    window.location.href="signup.html";
+}
 
 
 let Data=[

@@ -71,7 +71,7 @@ let navbar =() =>{
             </div>
            
   </div>
-      <div class="navabc">
+      <div class="navabc" id="account">
         <div><i class="fa-regular fa-user fa-lg" style="color: black; size: 60px;"></i></div>
         <div>Account</div>
       </div>
