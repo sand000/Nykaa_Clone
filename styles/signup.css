@@ -1,0 +1,96 @@
+
+*{
+    font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+#container{
+            /* border: 1px solid red; */
+            width: 100%;
+            height: 730px;
+           
+        }
+        
+        #main{
+           height: 85%;
+           width: 24%;
+           margin: auto;
+           margin-top: 4%;
+           border: 1.2px solid rgb(212, 209, 209);
+           border-radius: 20px;
+           padding: 2%;
+        }
+
+        h1{
+            font-size: 35px;
+            color: #152330;
+        }
+
+        #main> p{
+            font-size: 20px;
+            color: #293847;
+        }
+
+        #main .text{
+            margin: auto;
+            margin-top: -5%;
+            font-size:17px;
+        }
+
+        #main .text2{
+            font-size: 17px;
+            color: #293847;
+        }
+
+        hr{
+            background-color:rgb(212, 209, 209) ;
+            border: 0.1px solid rgb(212, 209, 209);
+        }
+
+        #giftimg{
+            width: 95%;
+            height: 180px;
+            display: block;
+            margin: auto;
+        }
+
+        #enterphone{
+            background-color: #FC2779;
+            color: white;
+            font-size: 18px;
+            font-weight:500;
+            border: none;
+            padding: 3%;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        #google{
+            border: 1px solid rgb(212, 209, 209) ;
+            display: flex;
+            border-radius: 5px;
+            gap: 13px;
+            align-items: center;
+            justify-content: center;
+            line-height: 0px;
+        }
+
+        #google> h3{
+            color: rgb(114, 110, 110);
+        }
+
+        #google > img {
+            height: 25px;
+            width: 25px;
+        }
+
+        #main > #tc{
+            color: rgb(128, 121, 121);
+            font-size: 17px;
+        }
+
+        #main > #tc > a{
+            color: rgb(128, 121, 121);
+        }
+
