@@ -15,6 +15,21 @@ function account(){
 }
 
 
+
+document.getElementById("makeupbutton").addEventListener("click",accountabc);
+function accountabc(){
+    window.location.href="offer.html";
+}
+
+
+
+
+document.getElementById("skincarebutton").addEventListener("click",myfun)
+function myfun()
+{
+  window.location.href="hair.html"
+}
+
 let Data=[
     {
         img:"https://images-static.nykaa.com/uploads/b8270a04-0987-4917-8ec5-3d5a93141d43.jpg?tr=w-400,cm-pad_resize",

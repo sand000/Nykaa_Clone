@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#seasonlogo{
+    width: 100%;
+
+}
+#seasonlogo img{
+    width: 100%;
+}
+#offerid a{
+text-decoration: none;
+color: #03021A94;
+}
+
+#offerid a:hover{
+color: rgb(240, 9, 124);
+} 
+#logo2{
+    width: 100%;
+
+}
+#logo2 img{
+    width: 100%;
+}
+#outer{
+   margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#logo3{
+    width: 100%;
+
+}
+#log {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+#middlediv{
+
+display: flex;
+justify-content: space-around;
+}
+#secmidd{
+display: flex;   
+justify-content: center;
+
+}
+#secmidd img{
+margin-left: 20px;
+}
+#logo3 img{
+    width: 100%;
+}
+.cell{
+width:20%;
+height: 300px;
+overflow: hidden;
+
+margin: 0 15px;
+margin-top: 20px;
+ text-align: center; 
+}
+.cell img{
+    width: 200px;
+}
+.imgcell{
+    width: 90%;
+    object-fit: cover;
+    }

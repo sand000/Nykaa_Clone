@@ -1,0 +1,229 @@
+#container{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.carousel-item h6{
+  color: white;
+}
+#upper{
+    height:25px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 100, 174);
+
+   
+}
+#show{
+    margin-left: 2%;
+    display: block;
+}
+
+#show :hover{
+    color: white;
+}
+#service{
+    display: flex;
+    justify-content: space-around;
+    gap :15px;
+    /* margin-left: 5%; */
+    margin-right: 5%;
+}
+#service > div:hover{
+    color:white;
+}
+.abc{
+    display: flex;
+    gap: 8px;
+}
+
+
+#middle{
+    height:70px;
+    width: 100%;
+    border: 1px solid rgb(187, 184, 182);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #03021A;
+}
+
+#categories{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    gap: 20px;
+}
+#categories >div:hover{
+    color:  rgb(240, 9, 124);
+}
+.submenu{
+    display:none;
+}
+
+#categories >div :hover .submenu{
+    display: block;
+    position: absolute;
+    
+}
+#customer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgs{
+    height: 30px;
+    width:80px;
+}
+#search{
+    border:1px solid gray ;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+#searchPd{
+    /* background-color: #0F0617; */
+    height: 36px;
+    font-size: 12px;
+    width: 100%;
+    /* border: none; */
+    font-weight: bold;
+    color: black;
+    border: none;
+    
+}
+
+
+#bottom{
+    height: 50px;
+    width: 100%;
+    border: 1px solid  rgb(187, 184, 182);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #03021A94;
+    border-top: none;
+    text-decoration: bold;
+}
+
+#bottom >div:hover{
+ color: rgb(240, 9, 124);
+}
+
+/* ---------------------------------------------- */
+#hairanchor a{
+    text-decoration: none;
+    color: #03021A94;
+}
+#hairanchor a:hover{
+    color: rgb(240, 9, 124);
+}
+#offerid a{
+    text-decoration: none;
+    color: #03021A94;
+}
+
+#offerid a:hover{
+    color: rgb(240, 9, 124);
+}
+#text{
+text-align: center;
+}
+#logosum{
+    width: 100%;
+}
+#logosum img{
+    width: 100%;
+}
+
+#rigthsidebar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  
+    grid-template-rows: auto;
+   justify-items: space-between;
+   text-align: center;
+ 
+}
+.stkfeat{
+    text-decoration: line-through;
+    text-align: center;
+    display: inline-block;
+}
+.buttonclass{
+    text-align: center;
+    width: 50%;
+    font-size: large;
+    font-weight: 400;
+}
+.buttonclass:hover{
+    background-color:   rgb(240, 9, 124);;
+ 
+}
+.titleclass{
+    color: teal;
+    text-align: center;
+}
+.div2class{
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+#maindiv{
+    width: 100%;
+    display: flex;
+    height: 800px;
+    margin-top: 5%;
+}
+#sidebar{
+width: 25%;
+
+
+
+}
+
+
+
+
+#rigthsidebar{
+ width: 50%;
+ justify-content: space-evenly;
+
+ margin: auto;
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+.sorting{
+ width: 100%;
+ height: 50px;
+ font-size: large;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ border: none;
+ margin-top: 40px;
+}
+#sorting1{
+ font-size: large;
+
+}
