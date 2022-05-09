@@ -183,3 +183,9 @@ function handlepriceSort(){
     console.log(filteredList)
     displayData(filteredList)
   }
+
+//   document.querySelector("#index").addEventListener("click",funlate);
+
+// function funlate(){
+//   window.location.href ="index.html";
+// }

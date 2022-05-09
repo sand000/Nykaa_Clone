@@ -1,0 +1,266 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Sliding show done */
+
+.branduLove{
+    text-align: center;
+}
+
+#top1st4div{
+text-align: center;
+display: flex;
+width: 90%;
+margin: auto;
+}
+#top1st4div>div{
+    margin: 12px;
+}
+#top1st4div>div>img{
+    border-radius: 5px;
+    width: 100%;
+}
+#top1st4div>div>p{
+    margin-top: 0;
+    padding-top: 0;
+}
+#top1st4div>div>h3{
+    margin: 5px;
+}
+
+/* top3container */
+
+#top3container{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+#top3container>div{
+    margin: 12px;
+}
+#top3container>div>p{
+    margin-top: 0;
+    padding-top: 0;
+}
+#top3container>div>h3{
+    margin: 5px;
+}
+
+/* lipsticlGrid -----------------------------------------*/
+#lipsticlGrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+    width: 95%;
+    gap: 20px;
+}
+
+#lastlipstick{
+display: flex;
+justify-content: center;
+}
+
+#lastlipstick>div{
+    margin: 10px;
+}
+/* horizontalscroll------------------------------- */
+#horizontalscroll{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+#horizontalscroll>div{
+    border: 0.5px solid rgb(223, 223, 223);
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.bestseller{
+    border: 1px ridge gray;
+    width: 97px;
+    font-size: 13px;
+    color: rgb(41, 153, 41);
+    background-color: rgb(222, 241, 222);
+    padding: 1px;
+    position: relative;
+    margin-left: 15px;
+}
+#horizontalscroll>div>img{
+    width: 162px;
+    margin: 23px;
+    margin-top: -30px;
+    margin-bottom: 3px;
+
+}
+.stardiv{
+    display:flex;
+}
+
+.mrpdiv{
+    display: flex;
+}
+.horizontaldes{
+    font-size: 15px;
+    color: rgb(100, 98, 98); 
+    margin: -5px;
+}
+.fiftyml{
+  text-align: start;
+  margin: 7px 17px;
+}
+.star{
+  height: 13px;
+  width: 48px;
+  margin-left: 14px;
+}  
+.rating{
+  font-size: 10px;
+  height: 13px;
+  width: 48px;
+  margin-top: 3px;
+}
+
+.mrp{
+  margin: 0;
+  margin-left: 17px;
+  margin-top: -8px;
+}
+.twonine{
+  margin: -11px 4px;
+  margin-left: 14px;
+}
+.view{
+  color: red;
+}
+
+/* Horizontal scroll done */
+
+h1{
+  text-align: center;
+}
+
+#amazingDiscount{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+}
+
+/* last container */
+
+#amazingDiscount{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+}
+#amazingDiscount>div{
+  justify-content: center;
+  padding: 110px;
+  text-align: center;
+  margin: -116px auto;
+  margin-top: 46px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#amazingDiscount>div>img{
+  margin: -35px auto;
+}
+#amazingDiscount>div>h1{
+color: rgb(207, 17, 48);
+}
+
+/* fdogo/;ejgrvloreanlg */
+
+#Manvswild{
+ padding: 20px;
+}

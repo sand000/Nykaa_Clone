@@ -12,7 +12,11 @@ let  b =document.getElementById("footer");
 b.innerHTML=footer();
 
 
+// document.querySelector("#index").addEventListener("click",funlate);
 
+// function funlate(){
+//   window.location.href ="index.html";
+// }
 
 
 

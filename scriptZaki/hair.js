@@ -42,6 +42,11 @@ function myfun(el)
 }
 
 
+// document.querySelector("#index").addEventListener("click",funlate0);
 
+// function funlate0(){
+//     console.log("hihliu");
+// //   window.location.href ="./index.html";
+// }
 
 
