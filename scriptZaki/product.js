@@ -1,6 +1,12 @@
 import { navbar } from "../navbar/navbar.js";
 document.getElementById("container").innerHTML = navbar();
 
+
+document.getElementById("index").addEventListener("click",gotoindex)
+function gotoindex(){
+      window.location.href="index.html"
+}
+
 let arr = [
       {
             name: "NykaaNatural",

@@ -8,10 +8,7 @@ import { footer } from "../navbar/footer.js";
 // let m=document.getElementById("footer")
 // m.innerHTML=footer();
 
-document.getElementById("account").addEventListener("click", account);
-function account() {
-      window.location.href = "signup.html";
-}
+
 
 document.getElementById("makeupbutton").addEventListener("click", accountabc);
 function accountabc() {
@@ -318,7 +315,7 @@ document.querySelector("#navsearchPd").addEventListener("keydown", funSearch0);
 function funSearch0(el) {
       let inn = document.querySelector("#navsearchPd").value;
       console.log(inn);
-      // console.log(el.key);
+      // console.log(inn);
       if (el.key == "Enter") {
             localStorage.setItem("inpu", JSON.stringify(inn));
             window.location.href = "search.html";
@@ -330,3 +327,10 @@ document.querySelector("#index").addEventListener("click", funlate);
 function funlate() {
       window.location.href = "index.html";
 }
+
+
+// document.querySelector("#account12").addEventListener("click",account0)
+// function account0() {
+//       window.location.href = "signup.html";
+//       console.log("bj")
+// }
