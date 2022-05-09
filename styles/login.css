@@ -1,0 +1,110 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#container {
+    border: 1px solid white;
+    width: 100%;
+    height:650px;
+    background-color: rgb(246, 242, 242);
+
+}
+
+#main {
+    height: 80%;
+    width: 24%;
+    margin: auto;
+    margin-top: 5%;
+    border: 1.2px solid rgb(212, 209, 209);
+    background-color: white;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+#main>div {
+    line-height: 0px;
+    display: flex;
+
+}
+
+#main>div>p {
+    font-size: 20px;
+    color: #293847;
+    /* margin: auto; */
+
+}
+
+#main>div>.loginhead {
+    margin-left: 20%;
+    color: rgb(73, 72, 72);
+    font-weight: 550;
+}
+
+hr {
+    background-color: rgb(212, 209, 209);
+    border: 0.1px solid rgb(241, 235, 235);
+}
+
+#mailName {
+    border: 1px solid rgb(229, 226, 226);
+    font-size: 15px;
+    background-color: #F3F3F3;
+    padding: 4%;
+    width: 94%;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#google:hover{
+    background-color:  orangered;
+}
+
+h6{
+    color: rgb(73, 72, 72);
+    /* line-height: 0px; */
+    margin: auto;
+    text-align: end;
+}
+
+#verify{
+    background-color: #FC2779;
+            color: white;
+            font-size: 18px;
+            font-weight:500;
+            border: none;
+            padding: 5%;
+            width: 100%;
+            border-radius: 2px;
+}
+
+#otpsent{
+    color: rgb(73, 72, 72);
+    text-align:center;
+    font-size: 14.5px;
+}
+
+#otpsent >a{
+     color: rgb(73, 72, 72);
+     text-decoration: none;
+     font-weight: bold;
+}
+
+#enterotp{
+    border: 1px solid #FC2779;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 3%;
+}
+
+#otpdiv{
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+#otpdiv >h5{
+    color: #FC2779;
+}
+

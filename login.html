@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/login.css">
+    <title>login</title>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="main">
+            <div>
+              <p>X</p>
+              <p class="loginhead">Login</p>
+            </div>
+    
+            <hr>
+    
+            <input  id="mailName" type="mail">
+            
+            <br>
+            <br>
+
+            <P id="otpsent"> Welcome back, 
+                <!-- <a href="">sandhya</a>, -->
+                Please enter the OTP sent on your email
+                (Be sure to check your spam folder)</P>
+            <br>
+
+            <div id="otpdiv">
+            <input id="enterotp" type="number" placeholder="OTP">
+            <h5>RE-SEND OTP</h5>
+           </div>
+
+            <br>
+            <br>
+            <br>
+            <button id="verify" onclick="verify()">VERIFY</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="./scripts/login.js"></script>

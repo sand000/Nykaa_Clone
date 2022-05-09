@@ -9,8 +9,26 @@ import {footer} from "../navbar/footer.js"
 // let m=document.getElementById("footer")
 // m.innerHTML=footer();
 
+document.getElementById("account").addEventListener("click",account);
+function account(){
+    window.location.href="signup.html";
+}
 
 
+
+document.getElementById("makeupbutton").addEventListener("click",accountabc);
+function accountabc(){
+    window.location.href="offer.html";
+}
+
+
+
+
+document.getElementById("skincarebutton").addEventListener("click",myfun)
+function myfun()
+{
+  window.location.href="hair.html"
+}
 
 let Data=[
     {
@@ -312,3 +330,31 @@ Data2.map(function(el){
 
 let m=document.getElementById("footer")
 m.innerHTML=footer();
+
+
+// -----------------
+
+document.querySelector("#salebutton").addEventListener("click",funTanu);
+
+function funTanu(){
+  window.location.href = "makeup0.html"
+}
+
+
+document.querySelector("#navsearchPd").addEventListener("keydown",funSearch0);
+
+function funSearch0(el){
+  let inn = document.querySelector("#navsearchPd").value
+console.log(inn);
+// console.log(el.key);
+if(el.key=="Enter"){
+  localStorage.setItem("inpu",JSON.stringify(inn))
+  window.location.href = "search.html";
+}
+}
+
+document.querySelector("#index").addEventListener("click",funlate);
+
+function funlate(){
+  window.location.href ="index.html";
+}
