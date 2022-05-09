@@ -1,6 +1,5 @@
-let navbar =() =>{
-
-    return `
+let navbar = () => {
+      return `
     
     <div id="navupper">
     <div id ="navshow">
@@ -76,14 +75,13 @@ let navbar =() =>{
         <div>Account</div>
       </div>
         
-         <div><i class="fa fa-shopping-bag fa-lg" aria-hidden="true" style="color: black ;size:60px;"></i></div>
+         <div id="cart"><i class="fa fa-shopping-bag fa-lg" aria-hidden="true" style="color: black ;size:60px;"></i></div>
      </div>
 </div>
 
 
 
-    `
-    }
+    `;
+};
 
-
-    export {navbar}
+export { navbar };
