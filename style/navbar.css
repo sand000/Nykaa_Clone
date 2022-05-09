@@ -1,0 +1,94 @@
+#navbar{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+#navupper{
+    height: 35px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 100, 174);
+   
+}
+#navshow{
+    margin-left: 5%;
+}
+
+#navshow :hover{
+    color: white;
+    cursor: pointer;
+}
+#navservice{
+    display: flex;
+    justify-content: space-around;
+    gap :15px;
+    /* margin-left: 5%; */
+    margin-right: 5%;
+}
+#navservice > div:hover{
+    color:white;
+    cursor: pointer;
+}
+.navabc{
+    display: flex;
+    gap: 8px;
+}
+
+
+#navmiddle{
+    height:70px;
+    width: 100%;
+    border: 1px solid rgb(187, 184, 182);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #03021A;
+}
+
+#navcategories{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    gap: 20px;
+}
+#navcategories >div:hover{
+    color:  rgb(240, 9, 124);
+    cursor: pointer;
+}
+#navcategories > img{
+   height: 30px;
+   width:85px;
+}
+
+#navcustomer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+#navsearch{
+    border:1px solid gray ;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+#navsearchPd{
+    /* background-color: #0F0617; */
+    height: 36px;
+    font-size: 12px;
+    width: 100%;
+    /* border: none; */
+    font-weight: bold;
+    color: black;
+    border: none;
+    
+}

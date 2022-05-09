@@ -1,0 +1,369 @@
+body{
+    background-color: #F4F4F4;
+    cursor: pointer;
+}
+
+
+
+
+
+#bottom{
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgb(187, 184, 182);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #03021A94;
+    border-top: none;
+    margin-top: -3%;
+}
+
+/* #bottom >div:hover{
+ color: rgb(240, 9, 124);
+ cursor: pointer;
+}
+
+
+#bottom > div{
+    list-style-type: none;
+}
+.box1 li{
+    list-style-type: none;
+    
+
+    
+}
+.box1-1{
+    display: flex;
+}
+.box1 .box11 >li{
+
+    display: flex;
+    flex-direction: column;
+}
+.row .box1{
+    height: 350px;
+    width: 70%;
+    border: 1px solid rgb(105, 7, 7);
+    /* box-sizing: border-box; */
+    /* list-style-type: none;
+    margin: auto;
+    margin-top:38px;
+    text-align: start; */
+    /* display: flex; */
+    /* margin-left: -15px; */
+
+/* 
+    display: none;
+
+} */
+
+/* .box11{
+    border: 1px solid brown; */
+    /* display: inline-border; */
+    /* display:flex; */
+    /* height: 100%;
+    width: 20%;
+}
+.row .box1 li{
+   margin-left: -5px;
+   color: gray; */
+   /* display: flex; */
+
+/* }
+.row .box1 li:hover{
+    color:rgb(240, 65, 94);
+}
+
+.row .box1 ul{
+    margin-left:-15px;
+}
+.row{
+    height: 100%;
+    width: auto;
+    text-align: center;
+   padding-top: 10px;
+
+}
+.row:hover { */
+    /* display: block; */
+    /* position: absolute; */
+    /* color:rgb(214, 16, 131);
+    border-bottom: 5px solid rgb(199, 75, 96);
+
+    
+}
+.row:hover .box1{
+    display: block;
+    position: absolute;
+} */ 
+
+
+
+
+
+
+.dropbtn {
+    background-color: white;
+    /* color: black; */
+    padding: 5px 10px;
+    /* font-size: 15px; */
+    border: none;
+    /* font-weight: BOLD; */
+    /* margin: auto; */
+    /* width: 70%; */
+    /* margin-left: 100px; */
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    /* margin: auto -33px; */
+    /* margin-top: 10px; */
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* left: -149px; */
+    /* left: -3%; */
+    margin: auto;
+    background-color: white;
+    min-width:180px;
+    /* min-width: 20px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* z-index: 1; */
+    margin-top: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 5px 6px;
+    text-decoration: none;
+    display: flex;
+    width: auto;
+  }
+  
+  .dropdown-content a:hover {background-color: #fff;}
+  
+  .dropdown:hover .dropdown-content {display: flex; }
+  
+  .dropdown:hover .dropbtn {color: rgb(248,83,168);}
+  .dropdown:hover .dropbtn {box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+  #linkbox{
+      display: flex;
+  }
+ 
+  .top{
+    display: flex;
+    height: auto;
+    width:auto;
+  }
+  .top>div{
+    width: 200px;
+    height: auto;
+    padding-right: 45px;
+    margin: 3px;
+  }
+  .bottom{
+    display: flex;
+    margin-top: 23px;
+  }
+  .bottom>div{
+    width: 200px;
+    height: auto;
+    padding-right: 45px;
+    margin: 3px;
+  }
+  .top>div>p{
+    line-height: 0;
+    font-size: 13px;
+    padding: 4px 0;
+    color: grey;
+    /* margin: 0; */
+  }
+
+  .bottom>div>p{
+    line-height: 0;
+    font-size: 13px;
+    padding: 4px 0;
+    color: grey;
+    /* margin: 0; */
+  }
+  /* #headerbottomcontainer{
+    display: flex;
+    margin-bottom: -10px;
+    margin: auto;
+    justify-content: space-evenly;
+  } */
+
+
+
+#poster >img{
+    height: 350px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#box2{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+
+}
+#box2 .prod{
+    margin-top:15px;
+    /* border: 1px solid brown; */
+    text-align: center;
+    height: 100%;
+    width: 13%;
+}
+/* h3{
+    border: 1px solid blue;
+} */
+.prod >img{
+    height: 100%;
+    width: 100%;
+}
+
+#pos1>img{
+    height: 150px;
+    width: 100%;
+  
+} 
+
+
+#container1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 25px;
+    /* justify-content: space-evenly; */
+   padding: 0 5% 0 5%;
+}
+
+.box3{
+    height: 180x;
+    width: 100%;
+    padding-bottom: 10px;
+    /* border: 1px solid rgb(105, 7, 7); */
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+.image1{
+    height: 80%;
+    width: 100%;
+}
+
+#pay{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 20px;
+}
+.paymethod{
+    height: auto;
+    width: auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 20px;
+
+}
+
+#poster1 >div>img{
+    height:180px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    /* margin-top: 10px; */
+}
+.pos1{
+    display: flex;
+    /* padding: 30px; */
+}
+
+#container2{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 25px;
+   /* padding-bottom: 10xpx; */
+    /* justify-content: space-evenly; */
+   padding: 0 5% 0 5%;
+}
+
+ #poster2 >div>img{
+    height:auto;
+    width: 100%;
+    /* border: 1px solid blue; */
+    /* margin-left: 5%; */
+    /* margin-top: 20px; */
+} 
+ .pos2{
+     display: flex;
+    
+     justify-content: space-evenly;
+     background-color: rgba(147, 231, 203, 0.932);
+     /* margin-left: 3%; */
+ }
+ .pos2 >div{
+    height:auto;
+     width: auto;
+     /* border: 1px solid red; */
+
+ }
+ .pos2 >div >img{
+     height: 80%;
+     width: 100%;
+ }
+
+ #container3{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 25px;
+   /* padding-bottom: 10xpx; */
+    /* justify-content: space-evenly; */
+   padding: 0 5% 0 5%;
+}
+
+.poster3 >div>img{
+    height:auto;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+.pos3{
+    display: flex;
+   
+    justify-content: space-evenly;
+    background-color: rgba(250, 147, 45, 0.961);
+    /* margin-left: 3%; */
+}
+.pos3 >div{
+   height:auto;
+    width: auto;
+    text-align: center;
+    /* border: 1px solid red; */
+
+}
+.pos3 >div >img{
+    height: 85%;
+    width: 90%;
+}

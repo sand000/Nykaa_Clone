@@ -1,0 +1,119 @@
+#footupper{
+    height: 120px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding-top: 5px;
+    font-size: 18px;
+    background-color: #3F414D;
+    color: white;
+}
+
+#footemail{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    
+
+}
+.footabc{
+    display: flex;
+    gap: 10px;
+}
+#footgoogle{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+#footquery{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* middle section */
+
+#footmiddle{
+    height: 380px;
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    background-color: #8C8D94;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.footbox{
+    height:100%;
+    width: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.footbox p{
+    font-size: 13px;
+}
+.footbox>p:hover{
+    color: #FC2779;
+    cursor: pointer;
+}
+
+#footbottom{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* display: flex; */
+
+}
+#footbox1{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.footbox-1{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+}
+
+.footbox11{
+    text-align: center;
+    /* align-items: center; */
+    margin-top: 6%;
+    height: 100%;
+    width: 15%;
+    padding: 10px;
+}
+
+#footbox2{
+    height: 30%;
+    width: 100%;
+    background-color: #FC2779;
+    color: white;
+    /* text-align: center; */
+}
+
+.footxyz{
+    display: flex;
+   /* padding-top:2.7%; */
+   padding: 15px;
+    /* align-items: center; */
+    justify-content: center;
+    /* color: white; */
+    /* gap: 10px; */
+}
