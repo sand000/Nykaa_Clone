@@ -1,0 +1,244 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* -------------------------------------------------------- */
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+#container{
+   
+height: 350px;
+    border: solid 1px black;
+  
+
+  
+}
+#logo{
+    width: 100%;
+height: 100%;
+}
+
+
+#product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 2%; 
+   padding-left: 2%;
+   padding-right: 2%;
+   border: solid 1px teal;
+}
+/* --------------------------------------- */
+    .cell{
+    width:20%;
+    height: 300px;
+    overflow: hidden;
+
+    margin: 0 15px;
+    margin-top: 20px;
+     text-align: center; 
+    }
+    .cell img{
+        width: 200px;
+    }
+   .imgcell{
+        width: 90%;
+        object-fit: cover;
+        }
+
+#hairanchor a{
+    text-decoration: none;
+    color: #03021A94;
+}
+#hairanchor a:hover{
+    color: rgb(240, 9, 124);
+}
+#offerid a{
+    text-decoration: none;
+    color: #03021A94;
+}
+
+#offerid a:hover{
+    color: rgb(240, 9, 124);
+} 
+    #container{
+       
+    height: 350px;
+     
+      
+    
+      
+    }
+    #logo{
+        width: 100%;
+    height: 100%;
+    }
+    
+    
+    #product{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 2%; 
+       padding-left: 2%;
+       padding-right: 2%;
+  
+    }
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+        #logodiv{
+            width: 100%;
+        margin-bottom: 10px;
+           
+        }
+      
+#lowerdivlogo{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:1%;
+    width: 100%;
+ margin-left: 40px;
+}
+
+
+        #logoseason{
+            width: 100%;
+            text-align: center;
+        }
+
+
+
+#lowcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.5%;
+    width: 100%;
+ margin-left: 20px;
+  
+}
+
+
+#cont{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.5%;
+    width: 100%;
+   margin-left: 20px;
+  
+}
+
+
+
+
+      
+        
+  
+        
+        @media screen and (max-width:1280px) {
+            #product{
+        
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: auto;
+            
+                justify-content: center;
+            
+          
+                gap: 2%; 
+              
+        
+        
+              
+            }
+            #lowerdivlogo{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+            
+                width: 100%;
+             margin-left: 10px;
+            }
+            #lowcontainer{
+                
+                grid-template-columns: repeat(1,1fr);
+            
+                width: 100%;
+             margin-left: 10px;
+              
+            }
+            #cont{
+                grid-template-columns: repeat(1,1fr);
+            
+                width: 100%;
+             margin-left: 10px;
+            }
+
+
+
+
+
+
+
+
+            #logoseason{
+                width: 100%;
+                text-align: center;
+            }
+            #container{
+                width: 100%;
+                
+               
+                border: solid 1px teal;
+                
+                  
+                }
+        }
+        
+        @media screen and (max-width:700px){
+            
+        #product{
+        
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: auto;
+        
+            justify-content: center;
+
+            gap: 1%; 
+            display: block;
+            
+            overflow-x: hidden;
+            white-space: nowrap;
+        }
+        #logoseason{
+            width: 100%;
+            text-align: center;
+        }
+       #logo1{
+     display: none;
+        }
+        
+        #container{
+        width: 100%;
+        
+       
+
+        
+          
+        }
+      
+        }
+        
