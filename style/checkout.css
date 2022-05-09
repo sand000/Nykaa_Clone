@@ -1,0 +1,142 @@
+#topContainer {
+      width: auto;
+      display: flex;
+      /* gap: 20px; */
+      justify-content: space-around;
+      width: 60%;
+      margin: auto;
+      background-color: white;
+      /* border: 1px solid  red; */
+      /* margin-left: 227px; */
+      /* justify-content: ; */
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.br {
+      width: 1px;
+      background-color: gray;
+      height: 80px;
+      /* justify-content: space-around; */
+}
+#naykaaLogo {
+      /* border: 1px solid  blue; */
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+      width: 12%;
+      height: 100px;
+}
+#naykaaLogo > img {
+      margin: 30px;
+
+      width: 79%;
+      height: 46%;
+}
+#login {
+      /* border: 1px solid black; */
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+      width: 12%;
+      height: 100px;
+}
+#address {
+      /* border: 1px solid blue; */
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+      width: 12%;
+      height: 100px;
+}
+#payment {
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+      /* border: 1px solid black; */
+      width: 12%;
+      height: 100px;
+}
+#bottamContainer > div {
+      gap: 20px;
+}
+#bottamContainer {
+      width: 60%;
+      /* gap: 10px; */
+      margin-bottom: 100px;
+
+      margin: auto;
+      margin-top: 70px;
+}
+#bottamContainer > p {
+      margin-left: 77px;
+      font-weight: bold;
+}
+#paymentContainer {
+      gap: 10px;
+}
+#checkoutBottam {
+      display: flex;
+      justify-content: space-around;
+}
+.btm {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+}
+
+#bottamContainerKiChild > div {
+      padding: 10px;
+      background-color: white;
+      width: 459px;
+}
+
+#bottamContainerKiChild {
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+      display: flex;
+      margin-top: 10px;
+      gap: 2px;
+      justify-content: center;
+      /* border: 1px solid  green; */
+}
+
+#savedAddress {
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+      /* border: 1px solid blue; */
+      width: 30%;
+      /* height:600px; */
+}
+#addressForm {
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+      /* border: 1px solid black; */
+      width: 30%;
+      /* height:600px; */
+}
+.brNone {
+      text-decoration: none;
+      border: none;
+}
+#cart {
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+      /* margin-top: 10px; */
+      height: 650px;
+    width: 94%;
+          overflow-y: scroll;
+}
+#addSubmit {
+      margin-top: 31px;
+      margin-bottom: 20px;
+      margin-left: 167px;
+}
+#topContainer > div :hover {
+      border-bottom: 2px solid pink;
+}
+
+#cartQ {
+      /* position: fixed; */
+      /* margin: -10px; */
+      height: 70px;
+      width: 375px;
+      /* border: 2px solid black; */
+      background-color: white;
+ color: #ff0000b8;
+    text-align: center;
+    padding-top: 21px;
+    font-size: 30px;
+}
+#cartProduct{
+      margin-top: 10px;
+}
+#total_cartPriceDiv{
+      font-weight: bolder;
+}

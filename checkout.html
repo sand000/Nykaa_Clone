@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>checkout Page</title>
+      <link rel="stylesheet" href="./style/checkout.css">
+      <link rel="stylesheet" href="./style/index.css">
+      <link rel="stylesheet" href="./style/payment.css">
+</head>
+
+<body>
+      <div id="topContainer">
+            <div id="naykaaLogo"><img src="https://logos-download.com/wp-content/uploads/2021/01/Nykaa_Logo.png" alt=""></div>
+            <div id="login">
+                  <p>1. <span id="loginB">Login</span></p>
+            </div>
+            <div class='br'></div>
+            <div id="address">
+                  <p>2. <span id="addressB">Address</span></p>
+            </div>
+            <div class='br'></div>
+            <div id="payment">
+                  <p>3. <span id="paymentB">Payment</span></p>
+            </div>
+      </div>
+
+
+      <div id="bottamContainer">
+
+            <div id="bottamContainerKiChild">
+                  <div id="savedAddress">
+                        <div id="nwAdd">
+                              <p>New Address</p>
+                              <div id="myAddress"></div>
+                        </div>
+                  </div>
+
+                  <div id="addressForm">
+                        <p><b>New Address</b></p>
+                        <hr>
+                        <form id="addForm" action="">
+                              <p>Select Country</p>
+                              <p>India</p>
+                              <hr>
+                              <p>Name</p>
+                              <input id="name" class="brNone" type="text" required>
+                              <hr>
+                              <p>Phone Number</p>
+                              <input id="number" class="brNone" type="tel" required>
+                              <hr>
+                              <p>Postal Code</p>
+                              <input class="brNone" type="text" pattern="[0-9]{6}" title="Five digit zip code" required />
+                              <hr>
+                              <p>Address</p>
+                              <input id="addres" class="brNone" type="text" required>
+                              <hr>
+                              <input type="checkbox" required name=""><span>Use this as my default Shipping Address</span><br>
+                              <input id="addSubmit" type="submit">
+                        </form>
+                  </div>
+                  <!-- <div id="cart">
+                                                                                                                                                      <div id="cartQ"></div>
+                                                                                                                                                </div> -->
+                  <!-- --------------------------------------------- -->
+                  <div>
+                        <div id="cartQ"></div>
+                        <div id="cart">
+                        </div>
+                        <div style="padding: 46px;" id="total_cartPriceDiv"></div>
+                  </div>
+                  <!-- -------------------------------------------- -->
+            </div>
+      </div>
+      <div id="checkoutBottam">
+            <div class="btm">
+                  <div><i class="fa-2x fa-solid fa-truck-fast"></i></div>
+                  <div>
+                        <p>GENUINE PRODUCTS</p>
+                        <p>Sourced Directly <br> From Brands</p>
+                  </div>
+            </div>
+            <div class="btm">
+                  <div><i class="fa-2x fa-solid fa-truck-fast"></i></div>
+                  <div>
+                        <p>FREE SHIPPING</p>
+                        <p>For Order Above <br> Rs. 499</p>
+                  </div>
+            </div>
+            <div class="btm">
+                  <div><i class="fa-2x fa-solid fa-truck-fast"></i></div>
+                  <div>
+                        <p>SECURE PAYMENTS</p>
+                        <p>Using 128-bit SSl <br> Encryption</p>
+                  </div>
+            </div>
+      </div>
+
+
+
+</body>
+
+</html>
+<script src="./script/checkout.js" type="module"></script>
+<script src="https://kit.fontawesome.com/0a98f740c5.js" crossorigin="anonymous"></script>
+<!-- <script src="/script/payment1.js"></script> -->
+<!-- <script src=""></scripts> -->
