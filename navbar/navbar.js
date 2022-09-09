@@ -70,10 +70,12 @@ let navbar = () => {
             </div>
            
   </div>
+     <a href="signup.html">
       <div class="navabc" id="account12">
         <div><i class="fa-regular fa-user fa-lg" style="color: black; size: 60px;"></i></div>
         <div>Account</div>
       </div>
+    </a>
         
          <div id="cart"><i class="fa fa-shopping-bag fa-lg" aria-hidden="true" style="color: black ;size:60px;"></i></div>
      </div>
